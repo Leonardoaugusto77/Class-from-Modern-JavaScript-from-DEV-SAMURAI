@@ -21,3 +21,11 @@ if (age <= 18) {
   // Display a welcome message if the user is 18 or older
   window.alert("Hello, welcome to the site!");
 }
+
+const Soma = (n1, n2) => {
+  // Functions with parmetres from JavaScript
+  let numbers = n1 + n2;
+  return console.log("A soma deu " + numbers);
+};
+
+Soma(1, 1);
