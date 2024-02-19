@@ -29,3 +29,14 @@ const Soma = (n1, n2) => {
 };
 
 Soma(1, 1);
+
+/* The function below is a practical example of using while in JavaScript(ES6) */
+
+const whileX = (pepleo) => {
+  while (pepleo <= 5) {
+    console.log(pepleo + " teste");
+    pepleo++;
+  }
+};
+
+whileX(5);
